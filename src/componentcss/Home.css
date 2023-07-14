@@ -1,0 +1,27 @@
+.Carousel{
+    display: flex;
+    gap: 1cm;
+    border: 3px solid #07f12e;
+    padding: 20px;
+    height:40%;
+  }
+.carousel-item {
+  height: 100%;
+  width:100%;
+  overflow: hidden; /* Ensures the content is clipped if it overflows */
+}
+
+.carousel-item img {
+  height: 100%;
+  width: auto; 
+}
+.card{
+  padding:10px;
+  margin:10px;
+  box-shadow: 4px 4px 12px rgb(3, 182, 253);
+}
+.price{
+  font-style: italic;
+  font-weight: 600;
+}
+ 

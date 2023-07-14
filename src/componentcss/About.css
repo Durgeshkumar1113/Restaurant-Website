@@ -1,0 +1,48 @@
+.about-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    color:aliceblue;
+  }
+  
+  .about-section {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .about-section h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .about-section p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  @keyframes glowing {
+    0% { box-shadow: 0 0 10px #5fc921; }
+    50% { box-shadow: 0 0 40px #c921bb; }
+    100% { box-shadow: 0 0 10px #5fc921; }
+  }
+  
+  .chef-image,
+  .restaurant-image {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid #5fc921;
+    object-fit: cover;
+    border-radius: 4px;
+    animation: glowing 2s infinite;
+  }
+  
+  .chef-image{
+    margin-right: 60px;
+  }
